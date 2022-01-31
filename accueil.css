@@ -1,42 +1,41 @@
+body {font-family: Arial, Helvetica, sans-serif;}
 #connexion_error
 {
  color :firebrick;
 }
-.connexion_part
-{
-    display : grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-    "d d d"
-    "a b b"
-    "a b b"
-    "c c c"
-    "e e e";
-    align-items: start;
-    
+h1 {
+    text-align: center;
 }
-.connexion_label
-{
-    grid-area: a;
+#connexion_part {
+    border: 3px solid #f1f1f1;
+    padding: 16px;
+    width: 50%;
+    position: fixed;
+    transform: translate(40%);
 }
-.connexion_input
-{
-    grid-area: b;
-    justify-self: center;
+.connexion_head {
+    margin-bottom: 10px;
+    font-size: 20px;
 }
-.connexion_head
+#password_input, #id_input 
 {
-    grid-area: d;
-    justify-self: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
-.connexion_button
+
+#connexion_button
 {
-    grid-area: c;
-    justify-self: center;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
 }
-.connexion_info
-{
-    grid-area: e;
-    justify-self: center;
+
+#connexion_part div *{
+    width: 100%;
 }

@@ -1,4 +1,4 @@
-var button_connexion = document.getElementById("connexion");
+var button_connexion = document.getElementById("connexion_button");
 var show_password_checkbox = document.getElementById("show_pw_toggle");
 var password = document.getElementById("password_input");
 var identifiant = document.getElementById("id_input");
