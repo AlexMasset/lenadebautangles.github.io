@@ -37,6 +37,9 @@ h1 {
     cursor: pointer;
 }
 
+#connexion_button :hover{
+    opacity: 80%;
+}
 #connexion_part div *{
     width: 100%;
 }
