@@ -7,7 +7,7 @@ function connect() {
     let identifiant_value = identifiant.value;
     let password_value = password.value;
     if (password_value == "Alexbg13" && identifiant_value == "Lenouille30") {
-        window.location = "lenadebautangles.github.io//tableau_de_bord/tableau_de_bord.html";
+        window.location = "./tableau_de_bord/tableau_de_bord.html";
     } else {
         document.getElementById("connexion_error").hidden = false;
     }
