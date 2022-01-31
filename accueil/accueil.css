@@ -1,0 +1,42 @@
+#connexion_error
+{
+ color :firebrick;
+}
+.connexion_part
+{
+    display : grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "d d d"
+    "a b b"
+    "a b b"
+    "c c c"
+    "e e e";
+    align-items: start;
+    
+}
+.connexion_label
+{
+    grid-area: a;
+}
+.connexion_input
+{
+    grid-area: b;
+    justify-self: center;
+}
+.connexion_head
+{
+    grid-area: d;
+    justify-self: center;
+}
+.connexion_button
+{
+    grid-area: c;
+    justify-self: center;
+}
+.connexion_info
+{
+    grid-area: e;
+    justify-self: center;
+}

@@ -1,0 +1,17 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("bloc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    }
+  
+  .board #title{
+    transition: 0.4s;
+    position:absolute;
+    font-size: 50px;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+  }
