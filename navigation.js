@@ -4,11 +4,11 @@ var side_nav_bar = document.getElementById("side_Nav_Bar");
 
 function openNav() {
     side_nav_bar.style.width = "250px";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    document.getElementById("darken").style.opacity = "0.3";
 }
 function closeNav() {
     side_nav_bar.style.width = "0";
-    document.body.style.backgroundColor = "white";
+    document.getElementById("darken").style.opacity = "0";
 }
 
 open_nav_button.addEventListener("click", function() {
